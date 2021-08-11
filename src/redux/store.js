@@ -1,6 +1,7 @@
 // store 작성
 // 1. 터미널에서 yarn add redux 설치
 // 2. import한 createStore에 리듀서를 넣기
+// 3. yarn add react-redux 로 react와 redux 연결
 
 import { createStore } from "redux";
 import Reducer from "./reducer";
@@ -10,4 +11,3 @@ const store = createStore(Reducer);
 
 export default store;
 
-// 3. yarn add react-redux 로 react와 redux 연결

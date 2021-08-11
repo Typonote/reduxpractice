@@ -5,15 +5,15 @@ const initState = {
     count: 0
 }
 
-// Reducer 정의
+// Reducer 정의 =>  Reducer는 action을 처리
 const Reducer = (state = initState, action) => {
     switch(action.type) {
-        case "INCREMENT":
+        case "INCREMENT": // 전달 받은 타입
             return {
                 count: state.count + 1
             }
         default:
-            return state;
+            return state; // 적용 값 
     }
 }
 
