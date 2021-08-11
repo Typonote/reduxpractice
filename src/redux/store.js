@@ -9,3 +9,5 @@ import Reducer from "./reducer";
 const store = createStore(Reducer);
 
 export default store;
+
+// 3. yarn add react-redux 로 react와 redux 연결
